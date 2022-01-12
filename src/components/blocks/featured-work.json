@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_blocks_featured_works",
+  "info": {
+    "displayName": "Featured Work",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "height": {
+      "type": "integer"
+    }
+  }
+}

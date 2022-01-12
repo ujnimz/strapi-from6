@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_members",
+  "info": {
+    "displayName": "Members",
+    "icon": "user-friends",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "members": {
+      "displayName": "Member",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.member"
+    }
+  }
+}

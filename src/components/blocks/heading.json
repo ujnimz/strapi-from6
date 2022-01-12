@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_typography_headings",
+  "info": {
+    "displayName": "Heading",
+    "icon": "h-square",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6"
+      ],
+      "default": "h2",
+      "required": true
+    },
+    "headingStyle": {
+      "type": "enumeration",
+      "enum": [
+        "tangerine",
+        "charcoal",
+        "atlantic",
+        "lime",
+        "white",
+        "black"
+      ],
+      "default": "white",
+      "required": true
+    },
+    "bgImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

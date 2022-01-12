@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_clientele_items",
+  "info": {
+    "displayName": "Clientele Item",
+    "icon": "dice-d6",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_nav_items",
+  "info": {
+    "displayName": "Nav Item",
+    "icon": "share",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

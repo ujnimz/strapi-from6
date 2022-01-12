@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_blocks_featured_boxes",
+  "info": {
+    "displayName": "Featured Box",
+    "icon": "flag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "leftIcon": {
+      "type": "enumeration",
+      "enum": [
+        "heart",
+        "magnifier",
+        "balloon",
+        "atom",
+        "rocket"
+      ],
+      "required": true
+    },
+    "rightIcon": {
+      "type": "enumeration",
+      "enum": [
+        "heart",
+        "magnifier",
+        "balloon",
+        "atom",
+        "rocket"
+      ],
+      "required": true
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "tangerine",
+        "charcoal",
+        "atlantic",
+        "lime",
+        "white",
+        "black"
+      ],
+      "required": true
+    },
+    "bgImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

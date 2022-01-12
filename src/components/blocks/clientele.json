@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_clienteles",
+  "info": {
+    "displayName": "Clientele",
+    "icon": "chalkboard-teacher",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "clientele": {
+      "displayName": "Clientele Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.clientele-item"
+    },
+    "sliderType": {
+      "type": "enumeration",
+      "enum": [
+        "carousel",
+        "grid"
+      ],
+      "default": "grid",
+      "required": true
+    }
+  }
+}

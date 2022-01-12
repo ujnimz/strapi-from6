@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_maps",
+  "info": {
+    "displayName": "Map",
+    "icon": "map-marked-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "placeId": {
+      "type": "string",
+      "required": true
+    },
+    "mapHeight": {
+      "type": "string",
+      "required": true,
+      "default": "400"
+    }
+  }
+}

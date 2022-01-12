@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_typography_contacts",
+  "info": {
+    "displayName": "Contact",
+    "icon": "paper-plane",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "call",
+        "email",
+        "map"
+      ],
+      "default": "call",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

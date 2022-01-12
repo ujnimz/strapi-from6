@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_services_sliders",
+  "info": {
+    "displayName": "Services Slider",
+    "icon": "boxes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    },
+    "spacing": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "none"
+      ],
+      "default": "normal",
+      "required": true
+    }
+  }
+}

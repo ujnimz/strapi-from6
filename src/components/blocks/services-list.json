@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_services_lists",
+  "info": {
+    "displayName": "Services List",
+    "icon": "clipboard-list"
+  },
+  "options": {},
+  "attributes": {
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    }
+  }
+}

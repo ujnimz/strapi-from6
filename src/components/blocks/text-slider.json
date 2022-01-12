@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_text_sliders",
+  "info": {
+    "displayName": "Text Slider",
+    "icon": "dice-d20",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

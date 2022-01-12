@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_media_images",
+  "info": {
+    "displayName": "Wide Image",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "animate": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "left",
+        "right",
+        "up",
+        "down"
+      ],
+      "default": "none",
+      "required": true
+    },
+    "blockHeight": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
