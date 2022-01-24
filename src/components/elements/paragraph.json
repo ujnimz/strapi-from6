@@ -10,6 +10,16 @@
     "text": {
       "type": "richtext",
       "required": true
+    },
+    "align": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "left",
+        "right"
+      ],
+      "default": "center",
+      "required": true
     }
   }
 }

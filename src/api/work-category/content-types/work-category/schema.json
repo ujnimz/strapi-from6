@@ -39,7 +39,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::work.work",
-      "inversedBy": "work_categories"
+      "mappedBy": "workCategories"
     }
   }
 }

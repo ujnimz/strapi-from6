@@ -1,20 +1,20 @@
 {
-  "collectionName": "components_blocks_maps",
+  "collectionName": "components_blocks_location_maps",
   "info": {
-    "displayName": "Map",
-    "icon": "map-marked-alt",
+    "displayName": "Location Map",
+    "icon": "map-marked",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "placeId": {
+    "iframeSrc": {
       "type": "string",
       "required": true
     },
     "mapHeight": {
-      "type": "string",
+      "type": "integer",
       "required": true,
-      "default": "400"
+      "default": 600
     }
   }
 }

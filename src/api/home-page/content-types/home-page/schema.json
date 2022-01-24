@@ -56,7 +56,6 @@
         "blocks.image",
         "blocks.call-to-action",
         "blocks.featured-box",
-        "blocks.map",
         "blocks.recent-testimonials",
         "blocks.services-slider",
         "blocks.featured-work",
@@ -64,13 +63,17 @@
         "blocks.members",
         "blocks.heading",
         "blocks.clientele",
-        "blocks.services-list"
+        "blocks.services-list",
+        "blocks.works-grid",
+        "blocks.posts-grid",
+        "blocks.contacts-block",
+        "blocks.location-map"
       ]
     },
     "slider": {
       "displayName": "textSlider",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true

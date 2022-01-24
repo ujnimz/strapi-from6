@@ -71,14 +71,16 @@
         "blocks.featured-work",
         "blocks.heading",
         "blocks.image",
-        "blocks.map",
         "blocks.members",
         "blocks.recent-testimonials",
         "blocks.services-slider",
         "blocks.text-block",
-        "blocks.text-slider",
         "blocks.clientele",
-        "blocks.services-list"
+        "blocks.services-list",
+        "blocks.works-grid",
+        "blocks.posts-grid",
+        "blocks.contacts-block",
+        "blocks.location-map"
       ]
     }
   }

@@ -7,9 +7,33 @@
   },
   "options": {},
   "attributes": {
-    "text": {
-      "type": "string",
-      "required": true
+    "sliderTexts": {
+      "displayName": "Slider Text",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.slider-text"
+    },
+    "mp4Video": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "ogvVideo": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "webmVideo": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

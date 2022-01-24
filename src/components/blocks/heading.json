@@ -44,6 +44,16 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "headingAlign": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "left",
+        "right"
+      ],
+      "default": "center",
+      "required": true
     }
   }
 }

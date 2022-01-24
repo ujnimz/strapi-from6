@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_elements_slider_texts",
+  "info": {
+    "displayName": "Slider Text",
+    "icon": "text-width"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
