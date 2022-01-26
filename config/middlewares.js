@@ -15,8 +15,8 @@ module.exports = [
         useDefaults: true,
         directives: {
           "connect-src": ["'self'", "https:"],
-          "img-src": ["'self'", "data:", "blob:", "storage.googleapis.com"],
-          "media-src": ["'self'", "data:", "blob:", "storage.googleapis.com"],
+          "img-src": ["'self'", "data:", "blob:", "fromsix.imgix.net"],
+          "media-src": ["'self'", "data:", "blob:", "fromsix.imgix.net"],
           upgradeInsecureRequests: null,
         },
       },
