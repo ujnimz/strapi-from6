@@ -14,6 +14,8 @@ module.exports = ({ env }) => ({
   },
 });
 
+// Below code is for Google Cloud database
+
 // module.exports = ({ env }) => ({
 //   connection: {
 //     client: "postgres",

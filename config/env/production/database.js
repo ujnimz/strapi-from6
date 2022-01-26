@@ -16,3 +16,5 @@ module.exports = ({ env }) => ({
     debug: false,
   },
 });
+
+// This code use online database when on production
