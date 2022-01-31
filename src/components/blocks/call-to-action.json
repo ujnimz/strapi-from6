@@ -17,13 +17,26 @@
     "buttonLink": {
       "type": "string"
     },
-    "bgImage": {
+    "backgroundImage": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
+    },
+    "buttonStyle": {
+      "type": "enumeration",
+      "enum": [
+        "tangerine",
+        "charcoal",
+        "atlantic",
+        "lime",
+        "white",
+        "black"
+      ],
+      "default": "tangerine",
+      "required": true
     }
   }
 }

@@ -35,7 +35,20 @@
       "targetField": "title",
       "required": true
     },
-    "image": {
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "heroImage": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -54,7 +67,43 @@
           "localized": true
         }
       },
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
+    },
+    "seoContent": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "seo.seo-meta"
+    },
+    "pageContent": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "blocks.call-to-action",
+        "blocks.clientele",
+        "blocks.contacts-block",
+        "blocks.featured-box",
+        "blocks.featured-work",
+        "blocks.heading",
+        "blocks.image",
+        "blocks.location-map",
+        "blocks.members",
+        "blocks.posts-grid",
+        "blocks.recent-testimonials",
+        "blocks.services-list",
+        "blocks.services-slider",
+        "blocks.text-block",
+        "blocks.works-grid"
+      ]
     }
   }
 }

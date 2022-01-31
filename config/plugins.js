@@ -27,3 +27,16 @@
 // };
 
 // ***** Uncomment above code to use Google Cloud Storage ******
+
+module.exports = ({ env }) => ({
+  //
+  graphql: {
+    endpoint: "/graphql",
+    shadowCRUD: true,
+    playgroundAlways: true,
+    depthLimit: 100,
+    apolloServer: {
+      tracing: false,
+    },
+  },
+});
