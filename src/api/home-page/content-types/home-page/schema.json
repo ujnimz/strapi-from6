@@ -67,7 +67,8 @@
         "blocks.works-grid",
         "blocks.posts-grid",
         "blocks.contacts-block",
-        "blocks.location-map"
+        "blocks.location-map",
+        "blocks.image-grid"
       ]
     },
     "slider": {

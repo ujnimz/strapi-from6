@@ -26,19 +26,6 @@
       ],
       "default": "none",
       "required": true
-    },
-    "blockHeight": {
-      "type": "integer",
-      "required": true
-    },
-    "blockWidth": {
-      "type": "enumeration",
-      "enum": [
-        "auto",
-        "full"
-      ],
-      "default": "auto",
-      "required": true
     }
   }
 }

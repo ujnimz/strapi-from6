@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_image_grids",
+  "info": {
+    "displayName": "Image Grid",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "singleImage": {
+      "displayName": "Single Image",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.single-image"
+    },
+    "numberOfCols": {
+      "type": "enumeration",
+      "enum": [
+        "two",
+        "three",
+        "four"
+      ],
+      "default": "two"
+    }
+  }
+}
