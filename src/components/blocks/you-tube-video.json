@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_you_tube_videos",
+  "info": {
+    "displayName": "YouTubeVideo",
+    "icon": "video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "youtubeLink": {
+      "type": "string",
+      "required": true
+    },
+    "autoPlay": {
+      "type": "enumeration",
+      "enum": [
+        "yes",
+        "no"
+      ],
+      "default": "yes",
+      "required": true
+    }
+  }
+}

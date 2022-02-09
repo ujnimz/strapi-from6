@@ -103,7 +103,8 @@
         "blocks.services-slider",
         "blocks.text-block",
         "blocks.works-grid",
-        "blocks.image-grid"
+        "blocks.image-grid",
+        "blocks.you-tube-video"
       ]
     }
   }

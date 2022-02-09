@@ -68,7 +68,8 @@
         "blocks.posts-grid",
         "blocks.contacts-block",
         "blocks.location-map",
-        "blocks.image-grid"
+        "blocks.image-grid",
+        "blocks.you-tube-video"
       ]
     },
     "slider": {
