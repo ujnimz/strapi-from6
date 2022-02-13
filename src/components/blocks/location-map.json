@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "iframeSrc": {
+    "placeId": {
       "type": "string",
       "required": true
     },
@@ -15,6 +15,15 @@
       "type": "integer",
       "required": true,
       "default": 600
+    },
+    "zoomLevel": {
+      "type": "integer",
+      "required": true,
+      "default": 15
+    },
+    "apiKey": {
+      "type": "string",
+      "required": true
     }
   }
 }
