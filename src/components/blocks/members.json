@@ -13,7 +13,7 @@
       "repeatable": true,
       "component": "elements.member"
     },
-    "animate": {
+    "hoverAnimate": {
       "type": "boolean",
       "default": false,
       "required": true
