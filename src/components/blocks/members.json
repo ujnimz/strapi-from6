@@ -12,6 +12,11 @@
       "type": "component",
       "repeatable": true,
       "component": "elements.member"
+    },
+    "animate": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
