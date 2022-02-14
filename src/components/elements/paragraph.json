@@ -20,6 +20,16 @@
       ],
       "default": "center",
       "required": true
+    },
+    "textType": {
+      "type": "enumeration",
+      "enum": [
+        "paragraph",
+        "bulletList",
+        "numberedList"
+      ],
+      "default": "paragraph",
+      "required": true
     }
   }
 }
