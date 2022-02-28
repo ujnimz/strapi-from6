@@ -112,6 +112,15 @@
         "blocks.image-grid",
         "blocks.you-tube-video"
       ]
+    },
+    "sortId": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer",
+      "unique": true
     }
   }
 }
